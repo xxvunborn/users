@@ -1,0 +1,11 @@
+development:
+  driver: postgres
+  dsn: postgres://localhost/user?sslmode=disable
+
+test:
+  driver: postgres
+  dsn: postgres://localhost/user_test?sslmode=disable
+
+docker:
+  driver: postgres
+  dsn: postgres://user:goto1234@postgres:5432/greek?sslmode=disable
